@@ -10,7 +10,27 @@
 
 ![Final coverage gap map](./images/final_gap_map.png)
 
+<div align="center">
+
+| 🔌 Stations Mapped | 🗺️ Hotspot Clusters | 📍 Isolated Stations | ✅ Area Covered | ❌ Coverage Gap |
+|:---:|:---:|:---:|:---:|:---:|
+| **1,533** | **35** | **155** | **12.6%** | **87.4%** |
+
+</div>
+
 ---
+
+## 📑 Contents
+
+- [Problem statement](#-problem-statement)
+- [Why this project](#-why-this-project)
+- [Tools used](#️-tools-used)
+- [Dataset](#-dataset)
+- [Process](#-process)
+- [Key findings](#-key-findings)
+- [Recommendation](#-recommendation)
+- [How to run](#️-how-to-run)
+- [Files in this repo](#-files-in-this-repo)
 
 ## 📍 Problem statement
 
@@ -79,6 +99,19 @@ Charging infrastructure investment is currently concentrated almost entirely aro
 2. **State capitals and tier-2 cities in central India and the North-East** currently outside any 25km zone, which would each anchor a new local cluster rather than adding redundant capacity to already-covered metros
 
 This kind of coverage-gap map is the type of first-pass analysis a real infrastructure or urban-planning team would run before committing capital to specific sites.
+
+## ▶️ How to run
+
+```bash
+# Clone the repo
+git clone https://github.com/aditya-datahub/ev-charging-gap-analysis-india.git
+
+# Install dependencies
+pip install pandas geopandas folium shapely scikit-learn matplotlib jupyter
+
+# Open the notebook
+jupyter notebook ev_charging_gap_analysis.ipynb
+```
 
 ## 📁 Files in this repo
 
